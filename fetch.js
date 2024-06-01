@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+
 const userInfoFetcher = (token) => {
     return axios({
         url: 'https://api.github.com/graphql',
